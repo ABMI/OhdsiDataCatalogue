@@ -14,3 +14,5 @@ data.catalogue <- function (Server,IP,Schema,ID,PW)
 }
 
 ##Sys.setlocale(category="LC_CTYPE", locale="UTF-8")
+
+
