@@ -25,7 +25,7 @@ Getting started
 ============
 In R, use the following commands to download and install:
 
-install.packages("devtools")
+install.packages("devtools") 
 devtools::install_github("ABMI/OhdsiDataCatalogue")
 
 library('OhdsiDataCatalogue')
