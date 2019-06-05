@@ -2,11 +2,19 @@
 
 Introduction
 ==========
-A package to calculate the counts of the standard and source concepts in an OMOP CDM and extract the current version of the mappings used
+A package to show basic elements of the data catalogue automatically 
+
+- Method of Data Collection (i.e. claims, EHR, etc)
+- Data Start Date
+- Total number of patients
+- Total visits (by inpatient, outpatient, emergency room, etc)
+- Total number of providers
+- Total number of care sites
+- Total number of specialties
 
 Technology
 ==========
-ConceptPrevalence is an R package.
+OhdsiDataCatalogue is an R package.
 
 Dependencies
 ============
@@ -18,9 +26,9 @@ Getting started
 In R, use the following commands to download and install:
 
 install.packages("devtools")
-devtools::install_github("OHDSI/StudyProtocolSandbox/ConceptPrevalence")
+devtools::install_github("ABMI/OhdsiDataCatalogue")
 
-library('ConceptPrevalence')
+library('OhdsiDataCatalogue')
 
 ## Add inputs for the site:
 
