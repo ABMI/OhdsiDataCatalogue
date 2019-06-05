@@ -1,0 +1,10 @@
+Package: OhdsiDataCatalogueD
+Type: Package
+Title: OhdsiDataCatalogue
+Version: 0.1.0
+Author: Hokyun Jeon
+Maintainer: Hokyun Jeon <neal1202@ajou.ac.kr>
+Description: Automatically create Basic Elements for the data catalogue
+License: Apache license 2.0
+Encoding: UTF-8
+LazyData: true
