@@ -34,57 +34,36 @@ library('OhdsiDataCatalogue')
 
 dbms <- 'your_dbms'
 
+server <- 'server'
+
+schema <- 'schema'
+
 user <- 'user'
 
 password <- 'password'
 
-server <- Sys.getenv('server')
-
-port <- Sys.getenv('port')
-
-
-cdmName <- 'your_cdm_name'
-
-cdmDatabaseSchema <- 'your_cdm_schema
-
-vocabDatabaseSchema <- 'your_vocab_schema'
-
-resultDatabaseSchema <-"your_results_schema"
-
-
-connectionDetails <- DatabaseConnector::createConnectionDetails(
-
-							      dbms = dbms,
-							      
-                                                              server = server,
-							      
-                                                              user = user,
-							      
-                                                              password = password,
-							      
-                                                              port = port
-							      )
-                                                              
+#port <- 'port'
+                                                             
 ## Then run the following:
-ConceptPrevalence::calculate (
-
- 				 connectionDetails,
+OhdsiDataCatalogue(
+		
+			dbms,
+			 
+  			server,
 				 
-  				 cdmName,
+			schema,
 				 
-				 cdmDatabaseSchema,
+ 			user,
 				 
- 				 vocabDatabaseSchema,
+			password
 				 
-				 resultDatabaseSchema
-				 
-				 )
+		  )
                                                          
 License
 =======
-  ConceptPrevalence is licensed under Apache License 2.0
+  OhdsiDataCatalogue is licensed under Apache License 2.0
 
 Development
 ===========
-  ConceptPrevalence is being developed in R Studio.
+  OhdsiDataCatalogue is being developed in R Studio.
 
