@@ -1,2 +1,2 @@
-# OhdsiDataCatalogue_d
+# OhdsiDataCatalogue
 develop
