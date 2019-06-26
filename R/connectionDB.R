@@ -21,4 +21,4 @@ OhdsiDataCatalogue <- function (Server,IP,Schema,ID,PW)
   return(result)
 }
 
-##Sys.setlocale(category="LC_CTYPE", locale="C")
+#Sys.setlocale(category="LC_CTYPE", locale="C")
